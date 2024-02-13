@@ -13,11 +13,15 @@ function App() {
   return (
     <div className="w-full h-[100vh]">
       <div className="top-background h-[25%] relative ">
-        <img src="./1.jpg" alt="hello" />
+        <img
+          src="./1.jpg"
+          className="w-[100%] h-[100%] object-cover"
+          alt="hello"
+        />
       </div>
       <div className="top-background h-[100%] relative bg-greenarmy overflow-x-clip">
         <div className="rounded-[50%] bg-greenarmy absolute top-[-25px] w-full h-[150px] scale-x-[140%]"></div>
-        <div className="photo-profile rounded-[100%] bg-babypowder border-[1rem] border-greenarmy w-[150px] h-[150px] absolute top-[-15%] left-0 right-0 mx-auto my-0">
+        <div className="photo-profile rounded-[100%] bg-babypowder border-[1rem] border-greenarmy w-[150px] h-[150px] absolute top-[-6rem] left-0 right-0 mx-auto my-0">
           <img
             src="./1.jpg"
             className="object-cover rounded-full ring-4 ring-babypowder h-[100%] w-[100%]"
